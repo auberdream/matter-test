@@ -16,7 +16,7 @@ var render = Render.create({
     engine: engine
 });
 
-// create two boxes and a ground
+// create objects and a ground
 var circle = Bodies.circle(400, 200, 80);
 var box = Bodies.rectangle(450, 50, 80, 80);
 var polygon = Bodies.polygon(300, 200, 9, 50);
